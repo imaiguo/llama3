@@ -1,0 +1,12 @@
+torch
+fairscale
+fire
+tiktoken==0.4.0
+blobfile
+jupyter
+gradio>=4.24.0
+transformers
+sentencepiece
+accelerate
+loguru
+python-dotenv
