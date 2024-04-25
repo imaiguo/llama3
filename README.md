@@ -39,6 +39,7 @@ Llama3 Content Length: 8K
 启动服务
 ```bash
 > python WebGradio/WebGradioAutoModelForCausalLM.py
+> python WebGradio/ChatInterfaceOpenAI.py
 > jupyter notebook --no-browser --port 7001 --ip=192.168.2.198
 > jupyter notebook --no-browser --port 7000 --ip=192.168.2.200
 ```

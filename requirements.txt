@@ -10,3 +10,5 @@ sentencepiece
 accelerate
 loguru
 python-dotenv
+openai
+colorama
