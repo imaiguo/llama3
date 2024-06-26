@@ -28,8 +28,7 @@ OpenAiServer=f"{BindLocalIP}:{OpenAiPort}"
 if platform.system() == 'Windows':
     os.environ['PATH'] = os.environ.get("PATH", "") + os.pathsep + r'D:\devtools\PythonVenv\chatglb3\Lib\site-packages\torch\lib'
 
-# MODEL_PATH= "/opt/Data/ModelWeight/meta/llama3.hf/Meta-Llama-3-8B-Instruct"
-MODEL_PATH= "/opt/Data/ModelWeight/FlagAlpha/Llama3-Chinese-8B-Instruct"
+MODEL_PATH= "/opt/Data/ModelWeight/meta/llama3.hf/Meta-Llama-3-8B-Instruct"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForCausalLM.from_pretrained(

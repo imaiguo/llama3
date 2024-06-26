@@ -29,7 +29,7 @@ def predict(chatbot, history):
     logger.debug(f"input->:{input}")
     history += [{"role": "user", "content": input}]
   
-    response = client.chat.completions.create(model='llama3:70b',
+    response = client.chat.completions.create(model='llama3:8b-instruct-fp16',
                                               messages= history,
                                               temperature=1.0,
                                               max_tokens=32768,
